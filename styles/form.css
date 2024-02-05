@@ -1,3 +1,31 @@
+@import url(generic.css);
 
+form {
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    margin: 20px;
+    border-radius: var(--border-radius);
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+input,select {
+    border-radius: var(--border-radius);
+    width: 300px;
+    height: 30px;
+}
  
- 
+button {
+    background-color: var(--back-home-button-bg);
+    color: var(--back-home-button-text);
+    border: none;
+    border-radius: var(--border-radius);
+    width: 60px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+label {
+    padding-top: 10px;
+}
+
