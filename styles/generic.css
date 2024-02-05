@@ -71,6 +71,7 @@ In generale, questa è una pratica consigliata quando si sviluppa CSS per garant
     border-radius: var(--border-radius);
     background-color: var(--brand-background);
     box-shadow: var(--box-shadow);
+    background-size: contain;
   }
   
   .center_element{
@@ -101,6 +102,7 @@ In generale, questa è una pratica consigliata quando si sviluppa CSS per garant
     cursor: pointer;
     border-radius: var(--border-radius);
     transition: background-color 0.3s;
+    ;
   }
   
   .button:hover {
