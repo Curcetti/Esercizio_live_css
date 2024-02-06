@@ -1,3 +1,14 @@
+@import url("./generic.css");
+
+form, input {
+    border-radius: var(--border-radius);
+}
+
+
+
+
+
+
 
  
  
